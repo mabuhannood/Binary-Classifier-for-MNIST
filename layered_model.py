@@ -3,6 +3,8 @@ from tensorflow import keras
 from tensorflow.keras import layers
 import tensorflow as tf
 
+# some changes
+
 def define_dense_model_single_layer(input_length, activation_f='sigmoid', output_length=1):
     """Define a dense model with a single layer with the following parameters:
     input_length: the number of inputs
